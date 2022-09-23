@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="754.0" prefWidth="1205.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DeleteMealPackageController">
+   <children>
+      <Text layoutX="351.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Delete Meal Package">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="43.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="622.0" fitWidth="1212.0" layoutX="-6.0" layoutY="134.0">
+         <image>
+            <Image url="@front-view-female-hands-holding-brown-paper-food-packages-job_140725-19793.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="89.0" layoutY="327.0" text="ID">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font></Label>
+      <TextField layoutX="135.0" layoutY="326.0" />
+      <Button layoutX="162.0" layoutY="406.0" mnemonicParsing="false" onAction="#deleteOnAction" style="-fx-background-color: #F8EFBA;" text="Delete">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="48.0" layoutY="676.0" mnemonicParsing="false" onAction="#backMealPackageOnAction" prefHeight="39.0" prefWidth="103.0" text="Back">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>

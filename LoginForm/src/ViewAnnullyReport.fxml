@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ViewAnnullyReportController">
+   <children>
+      <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="217.0" layoutY="72.0">
+         <image>
+            <Image url="@pngtree-check-mark-icon-design-template-vector-isolated-png-image_711429.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="93.0" layoutY="299.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Success Annually Report" wrappingWidth="447.1953125">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="30.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

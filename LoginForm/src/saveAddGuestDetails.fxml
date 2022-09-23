@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SaveAddGuestDetailsController">
+   <children>
+      <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="200.0" layoutY="94.0">
+         <image>
+            <Image url="@pngtree-check-mark-icon-design-template-vector-isolated-png-image_711429.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="192.0" layoutY="328.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Save SuccessFull">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="26.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

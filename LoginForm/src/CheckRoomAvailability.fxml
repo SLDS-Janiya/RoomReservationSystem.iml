@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="836.0" prefWidth="1134.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CheckRoomAvailabilityController">
+   <children>
+      <ImageView fitHeight="843.0" fitWidth="1134.0" layoutY="-7.0" opacity="0.54">
+         <image>
+            <Image url="@swimming-pool_74190-2109.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="253.0" layoutY="117.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Check  Room   Availability">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="43.0" />
+         </font>
+      </Text>
+      <Label layoutX="400.0" layoutY="224.0" text="Select what do you want type rooms">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <RadioButton layoutX="167.0" layoutY="584.0" mnemonicParsing="false" text="Triple Room">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="19.0" />
+         </font></RadioButton>
+      <RadioButton layoutX="799.0" layoutY="308.0" mnemonicParsing="false" text="Double Room">
+         <font>
+            <Font name="Eras Demi ITC" size="21.0" />
+         </font></RadioButton>
+      <RadioButton layoutX="144.0" layoutY="325.0" mnemonicParsing="false" text="Single Room">
+         <font>
+            <Font name="Berlin Sans FB" size="22.0" />
+         </font></RadioButton>
+      <RadioButton layoutX="714.0" layoutY="570.0" mnemonicParsing="false" text="Quad Room">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="21.0" />
+         </font></RadioButton>
+      <ImageView fitHeight="193.0" fitWidth="291.0" layoutX="147.0" layoutY="361.0" opacity="0.72">
+         <image>
+            <Image url="@beautiful-young-woman-relaxing-bed-with-good-book-cup-coffee-morning_662251-2643.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="193.0" fitWidth="280.0" layoutX="793.0" layoutY="348.0" opacity="0.84">
+         <image>
+            <Image url="@double-bed-with-cushions_1203-19.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="180.0" fitWidth="396.0" layoutX="704.0" layoutY="607.0" opacity="0.79">
+         <image>
+            <Image url="@vector-cartoon-interior-cozy-hotel-bedroom-with-furniture-double-bed-carpet-fireplace-liv_33099-1213.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="209.0" fitWidth="377.0" layoutX="167.0" layoutY="613.0" opacity="0.66">
+         <image>
+            <Image url="@triple-room-modern-hotel_85869-8109.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

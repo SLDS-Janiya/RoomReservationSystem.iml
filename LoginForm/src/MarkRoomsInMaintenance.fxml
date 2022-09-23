@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="770.0" prefWidth="1083.0" style="-fx-background-color: #ced6e0;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MarkRoomsInMaintenanceController">
+   <children>
+      <ImageView fitHeight="780.0" fitWidth="1083.0" layoutX="-2.0" layoutY="-3.0">
+         <image>
+            <Image url="@organic-flat-new-normal-hotels_23-2148912163.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="#171717" layoutX="204.0" layoutY="107.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mark Rooms in Maintenance ">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="44.0" />
+         </font></Text>
+      <Label layoutX="213.0" layoutY="215.0" prefHeight="36.0" prefWidth="284.0" text="Enter Room Number">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <TextField layoutX="513.0" layoutY="217.0" prefHeight="31.0" prefWidth="251.0" />
+      <Button layoutX="513.0" layoutY="298.0" mnemonicParsing="false" onAction="#MaintainOnAction" prefHeight="36.0" prefWidth="109.0" text="Maintain">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="89.0" layoutY="681.0" mnemonicParsing="false" onAction="#backOnAction" prefHeight="36.0" prefWidth="71.0" text="Back">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>
